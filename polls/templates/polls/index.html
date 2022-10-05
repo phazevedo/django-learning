@@ -5,7 +5,7 @@
                 <!-- <a href="/polls/{{ question.id }}/">
                     {{ question.question_text}}
                 </a> -->
-                <a href="{% url 'detailCrazyLongNameForTesting' question.id %}"> {{ question.question_text}}</a>
+                <a href="{% url 'polls:detailCrazyLongNameForTesting' question.id %}"> {{ question.question_text}}</a>
             </li>
         {% endfor %}
     </ul>
